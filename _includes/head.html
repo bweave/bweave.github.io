@@ -2,7 +2,11 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+{% if page.summary %}
+<meta name="description" content="{{ page.summary }}">
+{% else %}
 <meta name="description" content="{{ site.description }}">
+{% endif %}
 
 <link rel="profile" href="https://gmpg.org/xfn/11" />
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
