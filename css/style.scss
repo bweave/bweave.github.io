@@ -61,7 +61,22 @@ a:hover {
 }
 
 ul {
-    list-style-type: none;
+    padding: 0 0 0 2rem;
+
+    &.no-bullet {
+        list-style-type: none;
+    }
+
+    &.contact-info {
+        @extend .no-bullet;
+        margin-bottom: 3rem;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.resume {
+    .section { margin-bottom: 3rem }
 }
 
 .navbar, .nav {
@@ -455,6 +470,11 @@ blockquote {
         left: 15px;
         font-size: 65px;
         font-weight: bold;
+    }
+
+    footer {
+        line-height: 2;
+        margin-left: -1.5rem;
     }
 
 }
