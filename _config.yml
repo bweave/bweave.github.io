@@ -1,0 +1,22 @@
+# Setup
+title: BWeave
+tagline: 'Ramblings, maybe, when I get around to it.'
+description: 'Ramblings that may or may not include programmer-y stuff, woodworking debacles, homebrewing adventures, or drumming mishaps.'
+url: http://bweave.rocks
+baseurl: ''
+paginate: 5
+permalink: pretty
+
+# About/contact
+author:
+  name: Brian Weaver
+  url: https://twitter.com/brian_weaver
+  # email: markdotto@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version: 0.0.1
+# google_analytics_id: #UA-XXXX-Y
