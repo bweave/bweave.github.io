@@ -15,7 +15,7 @@ title: Home
     <div class="post-meta">
       <span class="post-date">{{ post.date | date_to_string }}</span>
       {% if post.tags %}
-        {% include tags.html tags=post.tags %}
+        {% include tag-list.html tags=post.tags %}
       {% endif %}
     </div>
 
