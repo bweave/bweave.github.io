@@ -1,11 +1,14 @@
 # Setup
 title: BWeave
 tagline: 'Ramblings, maybe, when I get around to it.'
-description: 'Ramblings that may or may not include programmer-y stuff, woodworking debacles, homebrewing adventures, or drumming mishaps.'
+description: 'Ramblings that may or may not include programmer-y stuff.'
 url: https://blog.bweave.dev
 baseurl: ''
 paginate: 5
 permalink: pretty
+exclude:
+  - Session.vim
+  - tags
 
 # About/contact
 author:
