@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h1>Tag: #{{page.tag}}</h1>
+<h1>Posts tagged: #{{page.tag-name}}</h1>
 <ul>
   {% for post in site.posts %}
-    {% if post.tags contains page.tag %}
+    {% if post.tags contains page.tag-name %}
       <li><a class="post" href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}

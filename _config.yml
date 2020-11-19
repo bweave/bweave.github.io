@@ -6,6 +6,9 @@ url: https://blog.bweave.dev
 baseurl: ''
 paginate: 5
 permalink: pretty
+collections:
+  tags:
+    output: true
 exclude:
   - Session.vim
   - tags

@@ -12,17 +12,14 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <div class="post-meta">
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+      {% if post.tags %}
+        {% include tags.html tags=post.tags %}
+      {% endif %}
+    </div>
 
     {{ post.content }}
-
-    {% if post.tags %}
-      <div class="post-tags">
-        {% for tag in post.tags %}
-          <a class="tag-link" href="/tag/{{tag}}" rel="tag">#{{ tag }}</a>
-        {% endfor %}
-      </div>
-    {% endif %}
   </div>
   {% endfor %}
 </div>
