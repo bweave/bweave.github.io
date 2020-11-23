@@ -2,7 +2,7 @@
 layout: post
 title: "ActiveRecord upsert_all"
 date: "2020-11-20 09:00:00 -0500"
-tags: TIL
+tags: TIL Ruby Rails ActiveRecord
 ---
 
 ActiveRecord has an [upsert_all](https://api.rubyonrails.org/classes/ActiveRecord/Persistence/ClassMethods.html#method-i-upsert_all). It "... updates or inserts (upserts) multiple records into the database in a single SQL INSERT statement" without instantiating ActiveRecord objects.

@@ -2,7 +2,7 @@
 layout: post
 title: "Python List Comprehensions"
 date: "2020-11-23 09:00:00 -0500"
-tags: TIL
+tags: TIL Python
 ---
 
 Python List Comprehensions are p _rad_. They go like this:
