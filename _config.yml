@@ -1,9 +1,9 @@
 # Setup
 title: BWeave
-tagline: 'Ramblings, maybe, when I get around to it.'
-description: 'Ramblings that may or may not include programmer-y stuff.'
+tagline: "Ramblings, maybe, when I get around to it."
+description: "Ramblings that may or may not include programmer-y stuff."
 url: https://blog.bweave.dev
-baseurl: ''
+baseurl: ""
 paginate: 5
 permalink: pretty
 collections:
@@ -19,9 +19,21 @@ author:
   url: https://twitter.com/brian_weaver
   # email: markdotto@gmail.com
 
+twitter:
+  username: brian_weaver
+  card: summary
+
+social:
+  name: Brian Weaver
+  links:
+    - https://twitter.com/brian_weaver
+    - https://www.linkedin.com/in/bweave
+    - https://github.com/bweave
+
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Custom vars
 version: 0.0.1
