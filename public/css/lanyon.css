@@ -54,6 +54,11 @@ h6 {
   letter-spacing: -0.025rem;
 }
 
+pre {
+  white-space: pre;
+  overflow-x: auto;
+}
+
 /*
  * Wrapper
  *
