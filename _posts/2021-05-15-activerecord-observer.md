@@ -2,7 +2,7 @@
 layout: post
 title: ActiveRecord::Observer
 date: 2021-05-15 07:29:46 -0400
-tags: ["TIL", "Rails"]
+tags: ["TIL", "Rails", "ActiveRecord"]
 ---
 
 TIL `ActiveRecord::Observer` is a thing. You can use it to pull AR model callbacks out into dedicated classes. This seems useful if you've got a handful(s) of related callbacks and need a better way to organize them.
