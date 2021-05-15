@@ -21,7 +21,7 @@ class CommentObserver < ActiveRecord::Observer
 end
 ```
 
-As you might've guessed, the class to observe is inferred, so in the case where it can't be inferred, or multiple class should be watched, do this.
+As you might've guessed, the class to observe is inferred, so in the case where it can't be inferred, or multiple classes should be watched, do this.
 
 ```ruby
 class AuditObserver < ActiveRecord::Observer
