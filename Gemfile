@@ -10,3 +10,4 @@ gem "jekyll", "~> 4.0"
 gem "jekyll-paginate", "~> 1.1"
 gem 'jekyll-seo-tag'
 gem "jekyll-compose", "~> 0.12.0"
+gem "webrick", "~> 1.8"
